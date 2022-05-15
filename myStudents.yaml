@@ -1,0 +1,22 @@
+---
+- myStudents:
+  - name: alok
+    phoNo: 25465
+    address:
+                - HNo: 01
+                - Road: MG
+                - City: Pune
+
+  - name: aravind
+    phoNo: 25465
+    address:
+          - HNo: 01
+          - Road: MG
+          - City: Pune
+
+  - name: janani
+    phoNo: 25465
+    address: 
+      - HNo: 01
+      - Road: MG
+      - City: Pune
