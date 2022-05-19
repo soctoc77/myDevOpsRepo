@@ -1,0 +1,11 @@
+---
+- host: all
+  become: yes
+  gather_facts: yes
+  tasks:
+  - name: Install webserver on Ubuntu nodes
+    apt:
+      name: apache2
+      state: present
+    when: ansible_os_family != "Debian"
+    
