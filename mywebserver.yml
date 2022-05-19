@@ -8,3 +8,9 @@
       name: apache2
       state: present
     when: ansible_os_family == "Debian"
+
+  - name: Install webserver on Ubuntu nodes
+    yum:
+      name: httpd
+      state: present
+    when: ansible_os_family != "Debian"
