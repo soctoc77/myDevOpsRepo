@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  tasks: 
+  - name: i want ti install git 
+    apt: 
+      name: git
+      state: present
+      
+  - task2
+  - task3
