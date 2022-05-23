@@ -7,5 +7,3 @@
       name: git
       state: present
       
-  - task2
-  - task3
